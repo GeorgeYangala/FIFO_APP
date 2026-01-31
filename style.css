@@ -1,0 +1,58 @@
+body {
+    max-width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.queue {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+label {
+    margin-right: 5px;
+}
+
+h1 {
+    position: absolute;
+    text-align: center;
+    font-family: arial;
+    top: 90px;
+    font-size: 70px;
+}
+
+input[type="text"] {
+    margin-right: 10px;
+    padding: 1rem;
+    outline: none;
+    border-radius: 2rem;
+    border: none;
+}
+
+button {
+    margin-right: 10px;
+    padding: 1rem;
+    border: none;
+    border-radius: 6 rem;
+
+}
+
+.Button {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: inline;
+}
+
+#queue-output {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+
+}

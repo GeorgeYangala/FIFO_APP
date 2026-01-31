@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Queue Example</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <h1>FIFO</h1>
+    <div class="queue">
+        <div class="container">
+            <label for="queue-input">Ajouter une queue: </label>
+            <input type="text" id="queue-input" placeholder="Entrer un éléments" />
+            <div class="Button">
+                <button onclick="enqueue()">Ajouter</button>
+                <button onclick="dequeue()">Supprimer</button>
+                <button onclick="front()">Premier élément</button>
+                <button onclick="isEmpty()">Vide</button>
+            </div>
+        </div>
+        <p id="queue-output"></p>
+    </div>
+    <script src="queue.js"></script>
+</body>
+
+</html>
